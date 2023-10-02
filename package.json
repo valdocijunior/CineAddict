@@ -1,6 +1,7 @@
 {
   "name": "cineaddict",
   "private": true,
+  "homepage": "https://valdocijunior.github.io/CineAddict/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
