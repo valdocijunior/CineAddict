@@ -5,6 +5,7 @@ import DarkMode from "../DarkMode/DarkMode";
 import Fire from "../../assets/fire.png";
 import Star from "../../assets/glowing-star.png";
 import Popcorn from "../../assets/popcorn.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,17 +13,17 @@ const Navbar = () => {
       <h1>CineAddict</h1>
       <div className="navbar_links">
         <DarkMode />
-        <a href="#popular">
+        <NavLink to="/">
           Populares <img src={Fire} alt="fire emoji" className="navbar_emoji" />
-        </a>
-        <a href="#top_rated">
+        </NavLink>
+        <NavLink to="/top_rated">
           Mais bem avaliados
           <img src={Star} alt="star emoji" className="navbar_emoji" />
-        </a>
-        <a href="#upcoming">
+        </NavLink>
+        <NavLink to="/upcoming">
           Próximos lançamentos{" "}
           <img src={Popcorn} alt="popcorn emoji" className="navbar_emoji" />
-        </a>
+        </NavLink>
       </div>
     </nav>
   );

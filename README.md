@@ -12,6 +12,7 @@
   Looking forward for more coding. :)
   </p>
   
+  You can click [here!](https://valdocijunior.github.io/Pokedex/) and access the full project!
   
   ## Tech Stack
   

@@ -16,6 +16,11 @@
   align-items: center;
 }
 
+.navbar_links > a.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 .navbar_links > a {
   display: flex;
   align-items: center;
